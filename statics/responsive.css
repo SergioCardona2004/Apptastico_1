@@ -1,0 +1,136 @@
+@media screen and (max-width: 768px) {
+    
+    #main-body {
+        padding-bottom: 10px;
+    }
+    
+    #logo h1 {
+        padding: 0 20px;
+        margin-top: 0;
+    }
+    
+    nav {
+        float: right;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    
+    nav ul {
+        float: right;
+    }
+    
+    nav li {
+        display: block;
+        float: none;
+        margin: 10px;
+    }
+    
+    #hero-image {
+        width: 100%;
+    }
+    
+    #hero-image img {
+        width: 250px;
+        max-width: 60%;
+        display: block;
+        margin: 0 0 0 20px;
+        padding: 0;
+        position: relative;
+        top: -20px;
+    }
+
+    #intro {
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    #intro-text {
+        padding: 0 20px;
+        margin: auto;
+    }
+    
+    #intro-text h1 {
+        margin-top: 15px;
+        font-size: 28px;
+    }
+    
+    #cta {
+        width: 96%;
+        margin: 0;
+        padding: 40px 0 40px 4%;
+    }
+    
+    #cta p, #recent-work {
+        display: none;
+    }
+    
+    #company-links {
+        display: none;
+    }
+    
+    #blurbs {
+        padding-top: 20px;
+    }
+    
+    .blurb {
+        width: 100%;
+        max-width: 400px;
+        padding: 30px 0;
+        display: block;
+        float: none;
+        margin: auto;
+    }
+    
+    #projects {
+        display: none;
+    }
+    
+    .projects-carousel {
+        display: none !important;
+    }
+    
+    .projects-carousel-small {
+        display: block !important;
+    }
+    
+    #blog-and-twitter {
+        max-width: 100%;
+        padding-left: 20px;
+        margin-top: 50px;
+    }
+    
+    #blog-placeholder {
+        width: 100%
+    }
+    
+    #blog-placeholder img {
+        margin-bottom: 20px;
+    }
+    
+    .blog {
+        width: 100%;
+        padding-right: 0;
+    }
+    
+    .blog-text {
+        max-width: 100%;
+        max-width: 400px;
+    }
+    
+    #twitter-section {
+        width: 90%;
+        margin: 50px 0;
+    }
+    
+    #social-links {
+        float: left;
+        clear: left;
+        padding: 20px 0 0 0;
+        margin: 0;
+    }
+    
+    #social-links li:first-child {
+        margin-left: 0;
+    }
+    
+}
